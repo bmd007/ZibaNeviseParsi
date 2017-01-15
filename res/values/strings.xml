@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="colorGridColumnWidth">65</integer>
+    <string name="app_name">زیبا نویس پارسی</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">تنظیمات</string>
+
+</resources>

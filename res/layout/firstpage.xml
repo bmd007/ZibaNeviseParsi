@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back_a_f"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="19dp"
+        android:text="هنر نزد ایرانیان است"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FF0000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="تقدیم به همه ی پارسی زبانان جهان"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FF0000" />
+
+ <Button
+     android:id="@+id/startB"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignRight="@+id/TextView01"
+     android:layout_below="@+id/TextView01"
+     android:layout_marginTop="50dp"
+     android:text="ورود به زیبا نویس"
+     android:textSize="30sp" />
+
+ <TextView
+     android:id="@+id/textView3"
+     android:layout_width="288dp"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/startB"
+     android:layout_centerHorizontal="true"
+     android:layout_marginTop="32dp"
+     android:text="زبان پارسی به طور کامل توسط دستگاه های جدید پشتیبانی نمی شود ازین رو بران شدیم تا برای حل این مشکل و برای راحتی کاربران پارسی زبان دستگاه های اندرویدی ،این برنامه را بسازیم.امید واریم سودمند باشد"
+     android:textAppearance="?android:attr/textAppearanceMedium"
+     android:textColor="#000000" />
+
+ <Button
+     android:id="@+id/about_button"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/textView3"
+     android:layout_centerHorizontal="true"
+     android:layout_marginTop="24dp"
+     android:text="کیستیم ما؟" />
+
+
+</RelativeLayout>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.fontt.Main"
+    android:background="@drawable/back_editor" >
+
+
+    
+    
+      <FrameLayout
+        android:id="@+id/fcsaver"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/abc_textfield_search_selected_holo_dark"
+         >
+
+        <EditText
+            android:id="@+id/textI"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/abc_ab_solid_light_holo"
+            android:text="بنویسید تا بماند" />
+    </FrameLayout>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <ScrollView
+        android:id="@+id/edit_full"
+        android:layout_width="wrap_content"
+        android:layout_height="165dp" 
+        android:isScrollContainer="false"        
+        android:layout_below="@+id/fcsaver"   
+        android:layout_marginTop="5dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="165dp"
+            android:orientation="vertical" >
+
+       
+
+            <HorizontalScrollView
+                android:id="@+id/backg_s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/color_c" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+                    
+                    <Button
+                        android:id="@+id/gallery_picer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="گالری" 
+                        android:layout_marginRight="8dp"/>
+                    
+                    <Button
+                        android:id="@+id/bac_g1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/bac_g2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/bac_g3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/bac_g4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/bac_g5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/bac_g6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/bac_g7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/abc_ab_stacked_transparent_light_holo" />
+
+                    <Button
+                        android:id="@+id/bac_g8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/abc_ab_stacked_transparent_light_holo" />
+
+                    <Button
+                        android:id="@+id/bac_g9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/abc_ab_stacked_transparent_light_holo" />
+
+                    <Button
+                        android:id="@+id/bac_g10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/abc_ic_cab_done_holo_dark" />
+
+                    <Button
+                        android:id="@+id/bac_g11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/abc_ab_stacked_transparent_light_holo" />
+
+                    <Button
+                        android:id="@+id/bac_g12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/abc_ab_stacked_transparent_light_holo" />
+
+                    <Button
+                        android:id="@+id/bac_g13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/abc_ab_stacked_transparent_light_holo" />
+
+                    <Button
+                        android:id="@+id/bac_g14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/abc_ab_stacked_transparent_light_holo" />
+
+                    <Button
+                        android:id="@+id/bac_g15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/abc_ab_stacked_transparent_light_holo" />
+
+                    <Button
+                        android:id="@+id/bac_g16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/abc_ab_stacked_transparent_light_holo" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:id="@+id/editor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/backg_s"
+                android:layout_alignParentLeft="true" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/plus"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/plus_i" 
+                        android:layout_marginRight="5dp"/>
+
+                    <Button
+                        android:id="@+id/mines"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/mines_i"
+                        android:layout_marginRight="5dp" />
+
+                    <Button
+                        android:id="@+id/color_c_b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/paint_i" 
+                        android:layout_marginRight="5dp"/>
+                    
+                    <ToggleButton
+                        android:id="@+id/bold_but"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="C/R"
+                        android:textOff="وسط"
+                        android:textOn="راست"
+                        android:layout_marginRight="5dp" />
+
+
+                    <Spinner
+                        android:id="@+id/spinner1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            
+            <HorizontalScrollView
+                android:id="@+id/ok_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editor" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" >
+                    
+                    
+                    <Button
+                        android:id="@+id/share_b"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/share_i" 
+                        android:layout_marginRight="5dp"/>
+
+                    <Button
+                        android:id="@+id/shut"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/camera_i"
+                        android:layout_marginRight="5dp" />
+
+                    <Button
+                        android:id="@+id/pakon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/eraser_i" />
+                    
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+
+    
+    
+    
+  
+    
+    
+    
+</RelativeLayout>

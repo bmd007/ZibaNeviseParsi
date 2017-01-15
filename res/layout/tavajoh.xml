@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_x="51dp"
+        android:layout_y="12dp"
+        android:text="رفع مشکلات کاربران"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="63dp"
+        android:text="ممکن است بعضی برنامه های موجود برای اشتراک تصویر به دلایل امنیتی تصویر تولید شده را مستقیم از طریق این اپلیکیشن به اشتراک نگزارند و پیغام خطا دهند\nشما میتوانید وارد گالری شده و از طریق گالری عکس های تولید شده را به اشتراک بگزارید\nنرم افزار های line و ,Whatsapp مشکلی ندارند"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_x="15dp"
+        android:layout_y="301dp"
+        android:text="با توجه به نبودن استاندارد واحد در بحث زبان پارسی  ، ممکن است در دستگاه شما بعضی فنت ها نمایشی همراه با ایراد داشته باشند.این مشکل تا حدودی غیر قابل جلوگیری است.پوزش ما را بپذیرید"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</AbsoluteLayout>
